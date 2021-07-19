@@ -1,34 +1,43 @@
-* {
-    font-size: 60px;
+*{
     margin: 0;
 }
-*,
-*:before, 
-*:after {
-    box-sizing: border-box;
+
+html {
+    /* font-size: 16px; */
 }
-#box1 {
-    background-color: thistle;
-    width: 300px;
-    padding: 30px;
-    border: 10px solid orange;
+.parent-container{
+    border: 5px solid red;
+    width: 1000px;
+    min-height: 100px;
 }
 
-#box2 {
-    background-color: tomato;
-    width: 300px;
-    padding: 30px;
-    border: 10px solid green;
-    box-sizing: border-box;
+.parent-container div{
+    padding: 20px 0;
+    margin: 10px 0;
+    color: blueviolet;
+    background-color: blanchedalmond;
 }
 
-#parent {
-    width: 300px;
-    border: 10px solid red;
+.px {
+    font-size: 32px;
+    width: 400px;
 }
 
-#child {
+.rem {
+    font-size: 2rem;
+    width: 25rem;
+}
+
+.em {
+    font-size: 2em;
+    width: 25em;
+}
+.percent {
     width: 100%;
-    border: 10px solid blueviolet;
-    padding: 5px;
+}
+.vw{
+    width: 100vw;
+}
+.vh{
+    height: 100vh;
 }
