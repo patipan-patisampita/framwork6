@@ -1,0 +1,19 @@
+/* 0,0,2,0 */
+.outter .inner {
+    color:blue;
+}
+
+/* 0,0,1,0 */
+.inner {
+    color: red;
+}
+
+/* 0,0,2,1 */
+.outter h1.inner {
+    color:orange;
+}
+
+/* 0,1,0,0 */
+#unique {
+    color:blueviolet;
+}

@@ -1,0 +1,19 @@
+* {
+    font-size: 60px;
+    margin: 0;
+}
+
+.wrapper {
+    display:flex;
+    flex-direction: column;
+}
+#box1 {
+    background-color: thistle;
+    margin: 30px;
+    border: 30px solid orange;
+}
+
+#box2 {
+    background-color: tomato;
+    margin: 30;
+}

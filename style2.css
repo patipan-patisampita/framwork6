@@ -1,0 +1,25 @@
+body{
+    font-size: 50px;
+}
+
+#div-1{
+    background-color: firebrick;
+}
+
+#span-1 {
+    background-color: khaki;
+}
+
+#button-1 {
+    background-color: plum;
+    font-size: 30px;
+}
+
+#a-1 {
+    background-color: seagreen;
+    color: black;
+}
+
+#div-2 {
+    background-color: royalblue;
+}
